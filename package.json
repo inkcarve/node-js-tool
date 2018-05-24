@@ -1,0 +1,12 @@
+{
+  "name": "tool",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+  	"excel-as-json":"node ./src/excel-as-json/index"
+  },
+  "devDependencies": {
+    "excel-as-json": "^2.0.1"
+  }
+}
