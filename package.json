@@ -3,10 +3,16 @@
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
+  "author": "Ting Wei Lin",
   "scripts": {
-  	"excel-as-json":"node ./src/excel-as-json/index"
+    "excel-as-json": "node ./src/excel-as-json/index",
+    "mozjpeg": "node ./src/mozjpeg/index",
+    "to-npm-lock":"rm -f package-lock.json && synp -s yarn.lock"
   },
   "devDependencies": {
-    "excel-as-json": "^2.0.1"
-  }
+    "excel-as-json": "^2.0.1",
+    "mozjpeg": "^6.0.0",
+    "synp": "^1.2.1"
+  },
+  "dependencies": {}
 }
